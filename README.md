@@ -107,3 +107,6 @@ class MyCompositeOperation : TTCompositeOperation {
     }
 }
 ```
+# Installation
+
+Just download this demo project and copy/paste files from "Core" to your project. Good luck!
