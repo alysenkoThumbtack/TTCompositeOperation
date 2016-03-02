@@ -36,10 +36,6 @@ import Foundation
         })
     }
     
-    deinit {
-        print("BFCompositeOperation deallocated\n")
-    }
-    
     init(suboperations: NSArray) {
         super.init()
         
