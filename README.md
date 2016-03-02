@@ -23,8 +23,8 @@ class HttpRequestSeriesOperation: TTConcurrentOperation {
 It's very important to call 'onComplete()' - it indicates that operation is finished
 
 # TTCompositeOperation
-TTCompositeOperation is based on TTConcurrentOperation and provides an appotunity to join several operations in one.
-Each suboperations will be perfomed on NSOperationQueue (TTCompositeOperation contains own operation queue with .maxConcurrentOperationCount = 2).
+TTCompositeOperation is based on TTConcurrentOperation and makes it possible to join several operations in one.
+Each suboperations will be perfomed on NSOperationQueue (TTCompositeOperation contains own queue with .maxConcurrentOperationCount = 2).
 
 TTCompositeOperation is NSOperation too, so it can be added to another TTCompositeOperation as suboperation.
 
