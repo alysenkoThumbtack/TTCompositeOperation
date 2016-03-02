@@ -107,6 +107,8 @@ class MyCompositeOperation : TTCompositeOperation {
     }
 }
 ```
+<br> *Note, that TTCompositeOperation does not produce blocked threads, because it doesn't use method of NSOperationQueue 'waitUntilAllOperationsAreFinished()' or something like that*
+
 # Installation
 
 Just download this demo project and copy/paste files from "Core" to your project. Good luck!
